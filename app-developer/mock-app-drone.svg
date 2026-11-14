@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="860" viewBox="0 0 420 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="860" rx="36" fill="#0C111C"/>
+  
+  <!-- Dynamic Island -->
+  <rect x="150" y="16" width="120" height="30" rx="15" fill="#000000"/>
+
+  <!-- App Header -->
+  <g transform="translate(24, 70)">
+    <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="24" font-weight="800">Drone Components</text>
+    <text x="0" y="52" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13">Hardware Management Record · Drone Club</text>
+    <rect x="290" y="10" width="84" height="28" rx="6" fill="#0284C7"/>
+    <text x="332" y="28" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">SSGMCE</text>
+  </g>
+
+  <!-- Summary Stats -->
+  <g transform="translate(24, 140)">
+    <rect width="115" height="74" rx="12" fill="#161F30" stroke="#1E2A40" stroke-width="1"/>
+    <text x="16" y="32" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="22" font-weight="800">48</text>
+    <text x="16" y="56" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11">Total Items</text>
+
+    <rect x="127" width="115" height="74" rx="12" fill="#161F30" stroke="#1E2A40" stroke-width="1"/>
+    <text x="143" y="32" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="22" font-weight="800">42</text>
+    <text x="143" y="56" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11">Operational</text>
+
+    <rect x="254" width="118" height="74" rx="12" fill="#161F30" stroke="#1E2A40" stroke-width="1"/>
+    <text x="270" y="32" fill="#F59E0B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="22" font-weight="800">6</text>
+    <text x="270" y="56" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11">Testing / Log</text>
+  </g>
+
+  <!-- Component Records List -->
+  <g transform="translate(24, 235)">
+    <!-- Item 1 -->
+    <rect width="372" height="88" rx="14" fill="#131B2B" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="15" font-weight="700">Brushless Motor 2205 (x4)</text>
+    <text x="16" y="54" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">ID: DRN-MTR-01 · Quad Propulsion</text>
+    <rect x="260" y="18" width="96" height="24" rx="6" fill="#065F46"/>
+    <text x="308" y="34" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" text-anchor="middle">OPERATIONAL</text>
+
+    <!-- Item 2 -->
+    <g transform="translate(0, 100)">
+      <rect width="372" height="88" rx="14" fill="#131B2B" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="15" font-weight="700">F4 Flight Controller Board</text>
+      <text x="16" y="54" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">ID: DRN-FC-04 · Calibrated Flight Unit</text>
+      <rect x="260" y="18" width="96" height="24" rx="6" fill="#065F46"/>
+      <text x="308" y="34" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" text-anchor="middle">OPERATIONAL</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(0, 200)">
+      <rect width="372" height="88" rx="14" fill="#131B2B" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="15" font-weight="700">4-in-1 ESC 30A (BLHeli_S)</text>
+      <text x="16" y="54" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">ID: DRN-ESC-08 · Speed Controller</text>
+      <rect x="260" y="18" width="96" height="24" rx="6" fill="#854D0E"/>
+      <text x="308" y="34" fill="#FDE047" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" text-anchor="middle">TEST LOGGED</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(0, 300)">
+      <rect width="372" height="88" rx="14" fill="#131B2B" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="15" font-weight="700">5045 Carbon Propellers (Pair)</text>
+      <text x="16" y="54" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">ID: DRN-PRP-12 · Balanced Set</text>
+      <rect x="260" y="18" width="96" height="24" rx="6" fill="#065F46"/>
+      <text x="308" y="34" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" text-anchor="middle">OPERATIONAL</text>
+    </g>
+
+    <!-- Item 5 -->
+    <g transform="translate(0, 400)">
+      <rect width="372" height="88" rx="14" fill="#131B2B" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="15" font-weight="700">LiPo Battery 4S 1500mAh</text>
+      <text x="16" y="54" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">ID: DRN-BAT-02 · Flight Power Pack</text>
+      <rect x="260" y="18" width="96" height="24" rx="6" fill="#065F46"/>
+      <text x="308" y="34" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" text-anchor="middle">OPERATIONAL</text>
+    </g>
+  </g>
+
+  <!-- Bottom Nav -->
+  <g transform="translate(0, 770)">
+    <rect width="420" height="90" fill="#080C14" stroke="#1E293B" stroke-width="1"/>
+    <text x="70" y="45" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Register</text>
+    <text x="210" y="45" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" text-anchor="middle">Audit Logs</text>
+    <text x="350" y="45" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" text-anchor="middle">Club Reports</text>
+  </g>
+</svg>

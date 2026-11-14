@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="900" viewBox="0 0 1280 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="900" fill="#0D0B18"/>
+  
+  <!-- Browser Chrome Header -->
+  <rect width="1280" height="50" fill="#171426"/>
+  <circle cx="25" cy="25" r="6" fill="#EF4444"/>
+  <circle cx="45" cy="25" r="6" fill="#F59E0B"/>
+  <circle cx="65" cy="25" r="6" fill="#10B981"/>
+  <rect x="160" y="10" width="680" height="30" rx="15" fill="#241E3B"/>
+  <text x="180" y="30" fill="#A78BFA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13">https://comforting-flan-c48f67.netlify.app</text>
+
+  <!-- App Header -->
+  <rect y="50" width="1280" height="70" fill="#120E22" stroke="#251C47" stroke-width="1"/>
+  <text x="50" y="93" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="700">🎮 Online Gaming Centre</text>
+  <text x="320" y="93" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14">Interactive Browser-Based Games · Group Project</text>
+  <rect x="1100" y="65" width="130" height="40" rx="8" fill="#7C3AED"/>
+  <text x="1165" y="90" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Play in Browser</text>
+
+  <!-- Main Game Hub Showcase -->
+  <g transform="translate(50, 160)">
+    <!-- Game Card 1: Retro Arcade -->
+    <g transform="translate(0, 0)">
+      <rect width="360" height="420" rx="16" fill="#181330" stroke="#372763" stroke-width="1.5"/>
+      <rect width="360" height="220" rx="16" fill="#221A45"/>
+      <circle cx="180" cy="110" r="50" fill="#7C3AED" opacity="0.3"/>
+      <text x="180" y="125" font-size="54" text-anchor="middle">👾</text>
+      <text x="24" y="260" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="700">Arcade Dodger</text>
+      <text x="24" y="290" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14">Fast-paced retro reflex game with canvas-based animation loops.</text>
+      <rect x="24" y="340" width="312" height="46" rx="8" fill="#7C3AED"/>
+      <text x="180" y="368" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Play Now ▶</text>
+    </g>
+
+    <!-- Game Card 2: Puzzle Logic -->
+    <g transform="translate(400, 0)">
+      <rect width="360" height="420" rx="16" fill="#181330" stroke="#372763" stroke-width="1.5"/>
+      <rect width="360" height="220" rx="16" fill="#221A45"/>
+      <circle cx="180" cy="110" r="50" fill="#EC4899" opacity="0.3"/>
+      <text x="180" y="125" font-size="54" text-anchor="middle">🧩</text>
+      <text x="24" y="260" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="700">Mind Grid Puzzle</text>
+      <text x="24" y="290" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14">Interactive spatial tile matching puzzle with dynamic score state.</text>
+      <rect x="24" y="340" width="312" height="46" rx="8" fill="#7C3AED"/>
+      <text x="180" y="368" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Play Now ▶</text>
+    </g>
+
+    <!-- Game Card 3: Speed Clicker -->
+    <g transform="translate(800, 0)">
+      <rect width="360" height="420" rx="16" fill="#181330" stroke="#372763" stroke-width="1.5"/>
+      <rect width="360" height="220" rx="16" fill="#221A45"/>
+      <circle cx="180" cy="110" r="50" fill="#F59E0B" opacity="0.3"/>
+      <text x="180" y="125" font-size="54" text-anchor="middle">⚡</text>
+      <text x="24" y="260" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="700">Sprint Reaction</text>
+      <text x="24" y="290" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14">High-speed reaction timer measuring millisecond precision.</text>
+      <rect x="24" y="340" width="312" height="46" rx="8" fill="#7C3AED"/>
+      <text x="180" y="368" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Play Now ▶</text>
+    </g>
+
+    <!-- Bottom Feature Strip -->
+    <g transform="translate(0, 470)">
+      <rect width="1160" height="200" rx="16" fill="#131024" stroke="#2D2152" stroke-width="1"/>
+      <text x="40" y="50" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="700">Group Project Overview &amp; Browser Game Architecture</text>
+      <text x="40" y="90" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="15">Designed and developed an Online Gaming Center featuring multiple interactive, browser-based games.</text>
+      <text x="40" y="130" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14">Built collaboratively with clean frontend separation, responsive controls, and high frame-rate interactive animations.</text>
+      <text x="40" y="165" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="14" font-weight="600">✓ Zero Installation · Instant Web Browser Play · Live on Netlify</text>
+    </g>
+  </g>
+</svg>

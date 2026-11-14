@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="1400" viewBox="0 0 1280 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="1400" fill="#0B0F19"/>
+  
+  <!-- Window Header Bar -->
+  <rect width="1280" height="54" fill="#131B2E"/>
+  <circle cx="28" cy="27" r="7" fill="#EF4444"/>
+  <circle cx="50" cy="27" r="7" fill="#F59E0B"/>
+  <circle cx="72" cy="27" r="7" fill="#10B981"/>
+  <text x="640" y="34" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" fill="#94A3B8" text-anchor="middle" font-weight="500">c_logic.c — C Programming — GCC 13.2.0 (x86_64-linux-gnu)</text>
+  
+  <!-- Sub-header / Tabs -->
+  <rect y="54" width="1280" height="42" fill="#0E1626"/>
+  <rect x="24" y="60" width="180" height="36" rx="6" fill="#1E293B"/>
+  <text x="114" y="83" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#38BDF8" text-anchor="middle">c_logic.c •</text>
+  <text x="260" y="83" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#64748B">memory.h</text>
+  <text x="360" y="83" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#64748B">algorithms.c</text>
+
+  <!-- Left Sidebar / File Explorer -->
+  <rect x="0" y="96" width="220" height="880" fill="#0C1322"/>
+  <text x="24" y="130" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#64748B" font-weight="600" letter-spacing="1">PROJECT EXPLORER</text>
+  <text x="36" y="165" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#38BDF8">📄 c_logic.c</text>
+  <text x="36" y="195" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">📄 memory.h</text>
+  <text x="36" y="225" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">📄 algorithms.c</text>
+  <text x="36" y="255" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">📄 Makefile</text>
+  <text x="36" y="285" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">📁 tests/</text>
+  <text x="36" y="315" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">📁 bin/</text>
+
+  <!-- Code Editor Body -->
+  <g transform="translate(240, 110)">
+    <!-- Line Numbers -->
+    <g font-family="'JetBrains Mono', Consolas, monospace" font-size="14" fill="#334155" text-anchor="end">
+      <text x="35" y="30">1</text><text x="35" y="55">2</text><text x="35" y="80">3</text>
+      <text x="35" y="105">4</text><text x="35" y="130">5</text><text x="35" y="155">6</text>
+      <text x="35" y="180">7</text><text x="35" y="205">8</text><text x="35" y="230">9</text>
+      <text x="35" y="255">10</text><text x="35" y="280">11</text><text x="35" y="305">12</text>
+      <text x="35" y="330">13</text><text x="35" y="355">14</text><text x="35" y="380">15</text>
+      <text x="35" y="405">16</text><text x="35" y="430">17</text><text x="35" y="455">18</text>
+    </g>
+
+    <!-- Code Text -->
+    <g font-family="'JetBrains Mono', Consolas, monospace" font-size="14">
+      <text x="60" y="30"><tspan fill="#F43F5E">#include</tspan> <tspan fill="#34D399">&lt;stdio.h&gt;</tspan></text>
+      <text x="60" y="55"><tspan fill="#F43F5E">#include</tspan> <tspan fill="#34D399">&lt;stdlib.h&gt;</tspan></text>
+      <text x="60" y="80"><tspan fill="#64748B">// Verified C Skill — Ganesh Balu Kurhade (SSGMCE Shegaon)</tspan></text>
+      <text x="60" y="105"><tspan fill="#F43F5E">typedef struct</tspan> <tspan fill="#E2E8F0">RecordNode {</tspan></text>
+      <text x="60" y="130">    <tspan fill="#38BDF8">int</tspan> <tspan fill="#E2E8F0">component_id;</tspan></text>
+      <text x="60" y="155">    <tspan fill="#38BDF8">double</tspan> <tspan fill="#E2E8F0">telemetry_value;</tspan></text>
+      <text x="60" y="180">    <tspan fill="#F43F5E">struct</tspan> <tspan fill="#E2E8F0">RecordNode* next;</tspan></text>
+      <text x="60" y="205"><tspan fill="#E2E8F0">} Node;</tspan></text>
+      <text x="60" y="230"></text>
+      <text x="60" y="255"><tspan fill="#38BDF8">Node*</tspan> <tspan fill="#A78BFA">allocate_node</tspan><tspan fill="#E2E8F0">(</tspan><tspan fill="#38BDF8">int</tspan> <tspan fill="#E2E8F0">id,</tspan> <tspan fill="#38BDF8">double</tspan> <tspan fill="#E2E8F0">val) {</tspan></text>
+      <text x="60" y="280">    <tspan fill="#38BDF8">Node*</tspan> <tspan fill="#E2E8F0">n = (</tspan><tspan fill="#38BDF8">Node*</tspan><tspan fill="#E2E8F0">)malloc(</tspan><tspan fill="#F43F5E">sizeof</tspan><tspan fill="#E2E8F0">(</tspan><tspan fill="#38BDF8">Node</tspan><tspan fill="#E2E8F0">));</tspan></text>
+      <text x="60" y="305">    <tspan fill="#F43F5E">if</tspan> <tspan fill="#E2E8F0">(!n) { fprintf(stderr, </tspan><tspan fill="#34D399">"Memory allocation failed
+"</tspan><tspan fill="#E2E8F0">); exit(1); }</tspan></text>
+      <text x="60" y="330">    <tspan fill="#E2E8F0">n-&gt;component_id = id; n-&gt;telemetry_value = val; n-&gt;next = NULL;</tspan></text>
+      <text x="60" y="355">    <tspan fill="#F43F5E">return</tspan> <tspan fill="#E2E8F0">n;</tspan></text>
+      <text x="60" y="380"><tspan fill="#E2E8F0">}</tspan></text>
+      <text x="60" y="405"></text>
+      <text x="60" y="430"><tspan fill="#38BDF8">int</tspan> <tspan fill="#A78BFA">main</tspan><tspan fill="#E2E8F0">(</tspan><tspan fill="#38BDF8">void</tspan><tspan fill="#E2E8F0">) {</tspan></text>
+      <text x="60" y="455">    <tspan fill="#38BDF8">Node*</tspan> <tspan fill="#E2E8F0">head = allocate_node(101, 8.18);</tspan></text>
+    </g>
+  </g>
+
+  <!-- Middle Section: Memory Architecture & Pointers Diagram -->
+  <g transform="translate(48, 620)">
+    <rect width="1184" height="280" rx="12" fill="#111827" stroke="#1F2937" stroke-width="2"/>
+    <text x="32" y="38" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" fill="#38BDF8" font-weight="600">POINTER ARITHMETIC &amp; HEAP MEMORY ALLOCATION</text>
+    
+    <!-- Stack Memory Box -->
+    <rect x="32" y="65" width="240" height="180" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="48" y="95" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8" font-weight="600">STACK FRAME</text>
+    <rect x="48" y="115" width="208" height="42" rx="4" fill="#0F172A"/>
+    <text x="60" y="140" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#E2E8F0">Node* head [0x7ffd8a]</text>
+    <text x="60" y="195" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" fill="#64748B">Points to Heap -&gt;</text>
+
+    <!-- Pointer Arrow -->
+    <path d="M 285 136 L 410 136" stroke="#38BDF8" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+
+    <!-- Heap Memory Node 1 -->
+    <rect x="420" y="65" width="320" height="180" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="436" y="95" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#38BDF8" font-weight="600">HEAP: 0x55a9b1 [Node 1]</text>
+    <rect x="436" y="115" width="288" height="35" rx="4" fill="#0F172A"/>
+    <text x="448" y="138" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#F8FAFC">id: 101 | val: 8.18</text>
+    <rect x="436" y="160" width="288" height="35" rx="4" fill="#0F172A"/>
+    <text x="448" y="183" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#34D399">next: 0x55a9e0 -&gt;</text>
+    <text x="436" y="225" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" fill="#10B981">✓ Memory Aligned (32 bytes)</text>
+
+    <!-- Pointer Arrow 2 -->
+    <path d="M 748 178 L 840 178" stroke="#34D399" stroke-width="3" stroke-dasharray="6 4"/>
+
+    <!-- Heap Memory Node 2 -->
+    <rect x="850" y="65" width="300" height="180" rx="8" fill="#1E293B" stroke="#34D399" stroke-width="1.5"/>
+    <text x="866" y="95" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#34D399" font-weight="600">HEAP: 0x55a9e0 [Node 2]</text>
+    <rect x="866" y="115" width="268" height="35" rx="4" fill="#0F172A"/>
+    <text x="878" y="138" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#F8FAFC">id: 102 | val: 9.30</text>
+    <rect x="866" y="160" width="268" height="35" rx="4" fill="#0F172A"/>
+    <text x="878" y="183" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#64748B">next: NULL</text>
+    <text x="866" y="225" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" fill="#10B981">✓ End of Linked Structure</text>
+  </g>
+
+  <!-- Bottom Section: Terminal Compilation & Verification -->
+  <g transform="translate(48, 930)">
+    <rect width="1184" height="420" rx="12" fill="#050811" stroke="#1E293B" stroke-width="2"/>
+    <rect width="1184" height="40" rx="12" fill="#0F172A"/>
+    <text x="24" y="26" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">Terminal — gcc compiler output &amp; valgrind analysis</text>
+    
+    <g transform="translate(24, 65)" font-family="'JetBrains Mono', Consolas, monospace" font-size="14">
+      <text x="0" y="20"><tspan fill="#34D399">ganesh@ssgmce-dev:~/c_projects$</tspan> <tspan fill="#F8FAFC">gcc -Wall -Wextra -O3 -std=c11 c_logic.c -o c_logic</tspan></text>
+      <text x="0" y="50"><tspan fill="#64748B">[Compilation SUCCESS] 0 warnings, 0 errors generated.</tspan></text>
+      <text x="0" y="90"><tspan fill="#34D399">ganesh@ssgmce-dev:~/c_projects$</tspan> <tspan fill="#F8FAFC">./c_logic</tspan></text>
+      <text x="0" y="120"><tspan fill="#38BDF8">[INFO]</tspan> <tspan fill="#E2E8F0">Initializing procedural data structure...</tspan></text>
+      <text x="0" y="150"><tspan fill="#10B981">[SUCCESS]</tspan> <tspan fill="#E2E8F0">Allocated Node 101 at pointer: 0x55a9b1 (val: 8.18)</tspan></text>
+      <text x="0" y="180"><tspan fill="#10B981">[SUCCESS]</tspan> <tspan fill="#E2E8F0">Allocated Node 102 at pointer: 0x55a9e0 (val: 9.30)</tspan></text>
+      <text x="0" y="210"><tspan fill="#38BDF8">[VERIFIED]</tspan> <tspan fill="#E2E8F0">Coursework logic verified at SSGMCE Shegaon Computer Science Lab.</tspan></text>
+      
+      <text x="0" y="250"><tspan fill="#34D399">ganesh@ssgmce-dev:~/c_projects$</tspan> <tspan fill="#F8FAFC">valgrind --leak-check=full ./c_logic</tspan></text>
+      <text x="0" y="280"><tspan fill="#10B981">==29410== All heap blocks were freed -- no leaks are possible</tspan></text>
+      <text x="0" y="310"><tspan fill="#10B981">==29410== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)</tspan></text>
+    </g>
+  </g>
+</svg>

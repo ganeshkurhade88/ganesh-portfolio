@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ganesh Balu Kurhade — Resume | Computer Science Engineer</title>
+  <meta name="description" content="Professional Resume of Ganesh Balu Kurhade, Computer Science and Engineering student at Shri Sant Gajanan Maharaj College of Engineering, Shegaon. 1st Prize Winner at District Level Aavishkar 2026, NPTEL Java 93% certified, creator of Study Material Chatbot, Room Near Me, Online Gaming Centre, Remind App.">
+  <link rel="canonical" href="https://ganeshkurhade88.github.io/living_portfolio/resume/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --text-light: #64748b;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      padding: 24px 16px 48px;
+    }
+
+    /* ACTION BAR (Hidden when printing) */
+    .action-bar {
+      max-width: 860px;
+      margin: 0 auto 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .action-links {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: 1px solid var(--border-dark);
+      background: var(--card-bg);
+      color: var(--text);
+    }
+
+    .btn:hover {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent-dark);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dark);
+      color: #ffffff;
+    }
+
+    /* RESUME SHEET CONTAINER */
+    .resume-sheet {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 44px 50px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.08), 0 0 0 1px var(--border);
+    }
+
+    /* HEADER */
+    header.resume-header {
+      border-bottom: 2px solid var(--text);
+      padding-bottom: 16px;
+      margin-bottom: 22px;
+    }
+
+    .name-title h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+
+    .name-title .role {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: -0.01em;
+      margin-bottom: 12px;
+    }
+
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .contact-item a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-item a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .contact-sep {
+      color: var(--border-dark);
+    }
+
+    /* SECTIONS */
+    section.resume-sec {
+      margin-bottom: 22px;
+    }
+
+    h2.sec-heading {
+      font-size: 14.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text);
+      border-bottom: 1px solid var(--border-dark);
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* SUMMARY */
+    .summary-text {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* SKILLS */
+    .skills-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      font-size: 13.5px;
+    }
+
+    .skill-row {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: 12px;
+      line-height: 1.5;
+    }
+
+    .skill-cat {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .skill-items {
+      color: var(--text-muted);
+    }
+
+    /* EXPERIENCE & PROJECTS */
+    .entry {
+      margin-bottom: 16px;
+    }
+
+    .entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .entry-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 3px;
+    }
+
+    .entry-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .entry-sub {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .entry-date {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-light);
+    }
+
+    .entry-loc {
+      font-size: 13px;
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    .entry-project-meta {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #047857;
+      margin-bottom: 4px;
+    }
+
+    .entry-bullets {
+      list-style-type: disc;
+      padding-left: 18px;
+      margin-top: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+
+    .entry-bullets li {
+      line-height: 1.5;
+    }
+
+    .entry-bullets strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .tech-pill {
+      margin-top: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-dark);
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    /* EDUCATION */
+    .edu-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    /* HONORS & CERTIFICATIONS */
+    .cert-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+
+    .cert-item {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+
+    .cert-dot {
+      color: var(--accent);
+      font-size: 12px;
+    }
+
+    .cert-item strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* TOAST ALERT FOR COPY */
+    #copyToast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    #copyToast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* LET'S CONNECT MODAL & BUTTON (Portfolio Dark Theme) */
+    .btn-connect {
+      background: #151313;
+      color: #f5f5f5;
+      border: 1px solid rgba(226, 123, 56, 0.45);
+    }
+    .btn-connect:hover {
+      background: #221e1e;
+      border-color: rgba(226, 123, 56, 0.75);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(226, 123, 56, 0.2);
+    }
+
+    .connect-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(0, 0, 0, 0.82);
+      -webkit-backdrop-filter: blur(14px);
+      backdrop-filter: blur(14px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+    }
+    .connect-backdrop.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .connect-modal {
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+      background: #151313;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 22px;
+      padding: 32px 28px;
+      box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05);
+      transform: translateY(12px) scale(0.97);
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+      color: #ffffff;
+      font-family: var(--font);
+    }
+    .connect-backdrop.active .connect-modal {
+      transform: translateY(0) scale(1);
+    }
+
+    .connect-close {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #d1d5db;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      padding: 0;
+    }
+    .connect-close:hover {
+      background: rgba(255, 255, 255, 0.18);
+      color: #ffffff;
+      transform: rotate(90deg);
+    }
+
+    .connect-eyebrow {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #E27B38;
+      margin-bottom: 10px;
+    }
+
+    .connect-title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #ffffff;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+
+    .connect-sub {
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: #9ca3af;
+      margin-bottom: 22px;
+    }
+
+    .connect-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .connect-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 18px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+      color: #ffffff;
+      transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+      cursor: pointer;
+    }
+    .connect-card:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.22);
+      transform: translateY(-2px);
+    }
+    .connect-card:active {
+      transform: translateY(0);
+    }
+
+    /* Featured / Warm Highlight for Email Directly */
+    .connect-card--featured {
+      background: rgba(226, 123, 56, 0.08);
+      border: 1px solid rgba(226, 123, 56, 0.45);
+    }
+    .connect-card--featured:hover {
+      background: rgba(226, 123, 56, 0.15);
+      border-color: rgba(226, 123, 56, 0.7);
+    }
+
+    .card-icon-wrap {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .card-icon-wrap svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .card-icon-wrap--mail {
+      background: rgba(226, 123, 56, 0.16);
+      color: #E27B38;
+      border: 1px solid rgba(226, 123, 56, 0.35);
+    }
+    .card-icon-wrap--linkedin {
+      background: rgba(59, 130, 246, 0.14);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+    .card-icon-wrap--github {
+      background: rgba(255, 255, 255, 0.1);
+      color: #f3f4f6;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .card-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+    .card-title {
+      font-size: 14.5px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+    .card-desc {
+      font-size: 12.5px;
+      font-weight: 400;
+      color: #9ca3af;
+      line-height: 1.2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* PRINT STYLES (Exact A4 / Letter ATS Output) */
+    @media print {
+      .connect-backdrop {
+        display: none !important;
+      }
+      body {
+        background: #ffffff !important;
+        padding: 0 !important;
+        color: #000000 !important;
+      }
+
+      .action-bar, #copyToast {
+        display: none !important;
+      }
+
+      .resume-sheet {
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        border-radius: 0 !important;
+      }
+
+      header.resume-header {
+        border-bottom: 2px solid #000000 !important;
+        margin-bottom: 16px !important;
+        padding-bottom: 12px !important;
+      }
+
+      h2.sec-heading {
+        border-bottom: 1px solid #000000 !important;
+        color: #000000 !important;
+        margin-bottom: 8px !important;
+        padding-bottom: 2px !important;
+      }
+
+      .entry-sub, .name-title .role, .tech-pill {
+        color: #000000 !important;
+      }
+
+      .tech-pill {
+        background: #f1f5f9 !important;
+        border: 1px solid #cbd5e1 !important;
+      }
+
+      .entry {
+        page-break-inside: avoid;
+        margin-bottom: 12px !important;
+      }
+
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+    }
+
+    /* MOBILE RESPONSIVENESS */
+    @media (max-width: 640px) {
+      .resume-sheet {
+        padding: 24px 20px;
+      }
+
+      .name-title h1 {
+        font-size: 26px;
+      }
+
+      .skill-row {
+        grid-template-columns: 1fr;
+        gap: 2px;
+      }
+
+      .entry-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ACTION BAR -->
+  <aside class="action-bar" aria-label="Resume Actions">
+    <div class="action-links">
+      <a href="../" class="btn">← Back to Portfolio</a>
+      <a href="../Certificates/" class="btn">View Certificates</a>
+    </div>
+    <div class="action-links">
+      <a href="Ganesh_Kurhade_Resume.pdf" download="Ganesh_Kurhade_Resume.pdf" class="btn" style="background:#2563eb;color:#fff;border-color:#1d4ed8">📥 Download PDF Resume</a>
+      <button class="btn btn-connect" id="openConnectBtn">🤝 Let's Connect</button>
+      <button class="btn" id="copyBtn">📋 Copy Plain Text for ATS</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ Print / Save as PDF</button>
+    </div>
+  </aside>
+
+  <!-- RESUME SHEET -->
+  <main class="resume-sheet">
+
+    <!-- HEADER -->
+    <header class="resume-header">
+      <div class="name-title">
+        <h1>GANESH BALU KURHADE</h1>
+        <div class="role">Computer Science Engineer | Software Developer</div>
+      </div>
+      <div class="contact-grid">
+        <span class="contact-item">📍 Shegaon, Maharashtra, India</span>
+        <span class="contact-sep">•</span>
+        <span class="contact-item">🔗 <a href="https://www.linkedin.com/in/ganesh-kurhade-89b18837a/" target="_blank" rel="noopener">linkedin.com/in/ganesh-kurhade-89b18837a/</a></span>
+        <span class="contact-sep">•</span>
+        <span class="contact-item">💻 <a href="https://github.com/ganeshkurhade88" target="_blank" rel="noopener">github.com/ganeshkurhade88</a></span>
+        <span class="contact-sep">•</span>
+        <span class="contact-item">🎓 Shri Sant Gajanan Maharaj College of Engineering, Shegaon</span>
+      </div>
+    </header>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <section class="resume-sec" aria-labelledby="summary-heading">
+      <h2 class="sec-heading" id="summary-heading">Professional Summary</h2>
+      <p class="summary-text">
+        Computer Science and Engineering undergraduate at <strong>Shri Sant Gajanan Maharaj College of Engineering, Shegaon</strong> (Sem 1 SGPA: <strong>7.59</strong>, Sem 2 SGPA: <strong>8.18</strong>). <strong>First Prize – District Level, Aavishkar</strong> and certified in <strong>NPTEL – Java Programming</strong>. Active member of <strong>Drone Club</strong>, <strong>CSESA</strong>, and <strong>Mozilla Member</strong>.
+      </p>
+    </section>
+
+    <!-- TECHNICAL SKILLS -->
+    <section class="resume-sec" aria-labelledby="skills-heading">
+      <h2 class="sec-heading" id="skills-heading">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-row">
+          <span class="skill-cat">Technical Skills:</span>
+          <span class="skill-items">C Programming, Git, GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="resume-sec" aria-labelledby="projects-heading">
+      <h2 class="sec-heading" id="projects-heading">Projects</h2>
+
+      <!-- PROJECT 1: REMIND APP -->
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Remind App (To-Do App)</span>
+        </div>
+        <ul class="entry-bullets">
+          <li>Developed a to-do application to help users add, organize and track their tasks and reminders.</li>
+        </ul>
+      </div>
+
+      <!-- PROJECT 2: STUDY MATERIAL CHATBOT -->
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Study Material Chatbot</span>
+          <span class="entry-date"><a href="https://study-materialchatbot.netlify.app" target="_blank" rel="noopener">study-materialchatbot.netlify.app</a></span>
+        </div>
+        <ul class="entry-bullets">
+          <li>Built a chatbot application to help students access and query study material efficiently.</li>
+        </ul>
+      </div>
+
+      <!-- PROJECT 3: ROOM NEAR ME -->
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Room Near Me</span>
+          <span class="entry-date"><a href="https://roomnearme.ai.studio" target="_blank" rel="noopener">roomnearme.ai.studio</a></span>
+        </div>
+        <ul class="entry-bullets">
+          <li>Developed a platform to help users search for and locate nearby rooms/accommodation.</li>
+        </ul>
+      </div>
+
+      <!-- PROJECT 4: ONLINE GAMING CENTRE WEBSITE -->
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Online Gaming Centre Website (Group Project)</span>
+          <span class="entry-date"><a href="https://comforting-flan-c48f67.netlify.app" target="_blank" rel="noopener">comforting-flan-c48f67.netlify.app</a></span>
+        </div>
+        <ul class="entry-bullets">
+          <li>Group project — designed and developed an Online Gaming Center featuring multiple interactive, browser-based games.</li>
+        </ul>
+      </div>
+
+      <!-- PROJECT 5: DRONE COMPONENTS MANAGEMENT RECORD -->
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Drone Components Management Record</span>
+        </div>
+        <ul class="entry-bullets">
+          <li>Maintained a record/tracking system for drone components as part of Drone Club activities.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="resume-sec" aria-labelledby="education-heading">
+      <h2 class="sec-heading" id="education-heading">Education</h2>
+      <div class="edu-grid">
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Shri Sant Gajanan Maharaj College of Engineering, Shegaon</span>
+            <span class="entry-date">Ongoing</span>
+          </div>
+          <div class="entry-head">
+            <span class="entry-sub">Bachelor of Engineering (B.E.) – Computer Science and Engineering</span>
+            <span class="entry-loc">Shegaon, Maharashtra, India</span>
+          </div>
+          <ul class="entry-bullets">
+            <li>Sem 1 SGPA: <strong>7.59</strong> | Sem 2 SGPA: <strong>8.18</strong></li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Higher Secondary Certificate (Class XII – HSC Science)</span>
+            <span class="entry-date">Percentage: 70.67%</span>
+          </div>
+          <div class="entry-head">
+            <span class="entry-sub">Maharashtra State Board</span>
+            <span class="entry-loc">Maharashtra, India</span>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Secondary School Certificate (Class X – SSC)</span>
+            <span class="entry-date">Percentage: 78.40%</span>
+          </div>
+          <div class="entry-head">
+            <span class="entry-sub">Maharashtra State Board | Distinction</span>
+            <span class="entry-loc">Maharashtra, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="resume-sec" aria-labelledby="certifications-heading">
+      <h2 class="sec-heading" id="certifications-heading">Certifications</h2>
+      <ul class="cert-list">
+        <li class="cert-item">
+          <span class="cert-dot">▪</span>
+          <span><strong>NPTEL Online Certification — Programming in Java:</strong> Elite Gold (Consolidated Score: <strong>93%</strong> | Assignments: 23.85/25, Proctored Exam: 69/75) · 12-week intensive course funded by Ministry of Education, Govt. of India · IIT Kharagpur (Roll No: NPTEL26CS36S865100138).</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ACHIEVEMENTS & AWARDS -->
+    <section class="resume-sec" aria-labelledby="achievements-heading">
+      <h2 class="sec-heading" id="achievements-heading">Achievements &amp; Awards</h2>
+      <ul class="cert-list">
+        <li class="cert-item">
+          <span class="cert-dot">▪</span>
+          <span><strong>First Prize (1st Rank) – District Level, Aavishkar 2026:</strong> Secured 1st Rank at the District Level Student Research Convention (AAVISHKAR 2026) in the CML/ET category, organized by Sant Gadge Baba Amravati University (SGBAU) Aavishkar Cell and hosted by Shri Sant Gajanan Maharaj College of Engineering, Shegaon on 29/10/2026.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- HACKATHONS -->
+    <section class="resume-sec" aria-labelledby="hackathons-heading">
+      <h2 class="sec-heading" id="hackathons-heading">Hackathons</h2>
+      <ul class="cert-list">
+        <li class="cert-item">
+          <span class="cert-dot">▪</span>
+          <span><strong>Participant – Hack2Skills Hackathon</strong></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- MEMBERSHIPS -->
+    <section class="resume-sec" aria-labelledby="memberships-heading">
+      <h2 class="sec-heading" id="memberships-heading">Memberships &amp; Leadership</h2>
+      <ul class="cert-list">
+        <li class="cert-item">
+          <span class="cert-dot">▪</span>
+          <span><strong>Drone Club</strong></span>
+        </li>
+        <li class="cert-item">
+          <span class="cert-dot">▪</span>
+          <span><strong>CSESA</strong></span>
+        </li>
+        <li class="cert-item">
+          <span class="cert-dot">▪</span>
+          <span><strong>Mozilla Member</strong></span>
+        </li>
+      </ul>
+    </section>
+</section>
+
+  </main>
+
+  <div id="copyToast" role="status" aria-live="polite">ATS plain text copied to clipboard!</div>
+
+  <script>
+    const plainTextResume = `GANESH BALU KURHADE
+linkedin.com/in/ganesh-kurhade-89b18837a/     github.com/ganeshkurhade88
+
+EDUCATION
+Bachelor of Engineering (B.E.) – Computer Science and Engineering
+Shri Sant Gajanan Maharaj College of Engineering, Shegaon
+10th (SSC) — 78.40%
+12th (HSC) — 70.67%
+Sem 1 SGPA: 7.59
+Sem 2 SGPA: 8.18
+
+TECHNICAL SKILLS
+  C Programming
+  Git
+  GitHub
+
+PROJECTS
+Remind App (To-Do App)
+  Developed a to-do application to help users add, organize and track their tasks and reminders.
+
+Study Material Chatbot  |  study-materialchatbot.netlify.app
+  Built a chatbot application to help students access and query study material efficiently.
+
+Room Near Me  |  roomnearme.ai.studio
+  Developed a platform to help users search for and locate nearby rooms/accommodation.
+
+Online Gaming Centre Website  |  comforting-flan-c48f67.netlify.app
+  Group project — designed and developed an Online Gaming Center featuring multiple interactive, browser-based games.
+
+Drone Components Management Record
+  Maintained a record/tracking system for drone components as part of Drone Club activities.
+
+CERTIFICATIONS
+  NPTEL – Java Programming
+
+ACHIEVEMENTS
+  First Prize – District Level, Aavishkar
+
+HACKATHONS
+  Participant – Hack2Skills Hackathon
+
+MEMBERS
+  Drone Club
+  CSESA
+  Mozilla Member`;
+
+    const copyBtn = document.getElementById('copyBtn');
+    const toast = document.getElementById('copyToast');
+
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(plainTextResume);
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2500);
+      } catch (e) {
+        // Fallback for older browsers
+        const ta = document.createElement('textarea');
+        ta.value = plainTextResume;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2500);
+      }
+    });
+
+    // Let's Connect Modal Logic
+    const openConnectBtn = document.getElementById('openConnectBtn');
+    const connectBackdrop = document.getElementById('connectBackdrop');
+    const connectClose = document.getElementById('connectClose');
+
+    function openConnectModal() {
+      if (!connectBackdrop) return;
+      connectBackdrop.hidden = false;
+      void connectBackdrop.offsetWidth;
+      connectBackdrop.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeConnectModal() {
+      if (!connectBackdrop) return;
+      connectBackdrop.classList.remove('active');
+      setTimeout(() => {
+        connectBackdrop.hidden = true;
+        document.body.style.overflow = '';
+      }, 250);
+    }
+
+    openConnectBtn?.addEventListener('click', openConnectModal);
+    connectClose?.addEventListener('click', closeConnectModal);
+    connectBackdrop?.addEventListener('click', (e) => {
+      if (e.target === connectBackdrop) closeConnectModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && connectBackdrop && !connectBackdrop.hidden) {
+        closeConnectModal();
+      }
+    });
+  </script>
+
+  <!-- LET'S CONNECT MODAL (Portfolio Dark Theme) -->
+  <div class="connect-backdrop" id="connectBackdrop" role="dialog" aria-modal="true" aria-labelledby="connectTitle" hidden>
+    <div class="connect-modal" id="connectModal">
+      <button class="connect-close" id="connectClose" aria-label="Close dialog">✕</button>
+      <span class="connect-eyebrow">GET IN TOUCH</span>
+      <h2 class="connect-title" id="connectTitle">Let's Build Something Meaningful Together</h2>
+      <p class="connect-sub">I am actively looking for Frontend Developer and Software Engineering opportunities, internships, and collaborative hackathons.</p>
+
+      <div class="connect-cards">
+
+
+        <!-- 2. Connect on LinkedIn -->
+        <a href="https://www.linkedin.com/in/ganesh-kurhade-89b18837a/" target="_blank" rel="noopener noreferrer" class="connect-card" id="cardLinkedIn">
+          <div class="card-icon-wrap card-icon-wrap--linkedin">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div class="card-text">
+            <span class="card-title">Connect on LinkedIn</span>
+            <span class="card-desc">linkedin.com/in/ganesh-kurhade-89b18837a/</span>
+          </div>
+        </a>
+
+        <!-- 3. GitHub Profile -->
+        <a href="https://github.com/ganeshkurhade88" target="_blank" rel="noopener noreferrer" class="connect-card" id="cardGitHub">
+          <div class="card-icon-wrap card-icon-wrap--github">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </div>
+          <div class="card-text">
+            <span class="card-title">GitHub Profile</span>
+            <span class="card-desc">github.com/ganeshkurhade88</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

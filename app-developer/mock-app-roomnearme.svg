@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="860" viewBox="0 0 420 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="860" rx="36" fill="#0A0F1D"/>
+  
+  <!-- Dynamic Island -->
+  <rect x="150" y="16" width="120" height="30" rx="15" fill="#000000"/>
+
+  <!-- App Header -->
+  <g transform="translate(24, 70)">
+    <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="24" font-weight="800">Room Near Me</text>
+    <text x="0" y="52" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13">Nearby Student Accommodation</text>
+    <circle cx="340" cy="30" r="18" fill="#1E293B"/>
+    <text x="340" y="36" font-size="16" text-anchor="middle">🔍</text>
+  </g>
+
+  <!-- Filter Chips -->
+  <g transform="translate(24, 140)">
+    <rect width="100" height="32" rx="16" fill="#0284C7"/>
+    <text x="50" y="21" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">&lt; 500m</text>
+
+    <rect x="108" width="110" height="32" rx="16" fill="#1E293B"/>
+    <text x="163" y="21" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Single Bed</text>
+
+    <rect x="226" width="120" height="32" rx="16" fill="#1E293B"/>
+    <text x="286" y="21" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Under ₹3.5k</text>
+  </g>
+
+  <!-- Accommodation Cards -->
+  <g transform="translate(24, 190)">
+    <!-- Card 1 -->
+    <rect width="372" height="240" rx="16" fill="#131D33" stroke="#2563EB" stroke-width="1.5"/>
+    <rect width="372" height="110" rx="16" fill="#1E293B"/>
+    <text x="186" y="65" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" text-anchor="middle">🏠 Campus View Room</text>
+    <rect x="14" y="14" width="80" height="22" rx="4" fill="#0284C7"/>
+    <text x="54" y="29" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">VERIFIED</text>
+    
+    <text x="18" y="142" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="700">Single Student Room</text>
+    <text x="18" y="164" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">📍 350m from College Gate · Shegaon</text>
+    <text x="18" y="196" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="700">₹3,500 / month</text>
+    <rect x="240" y="174" width="116" height="36" rx="8" fill="#2563EB"/>
+    <text x="298" y="197" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">View Room →</text>
+
+    <!-- Card 2 -->
+    <g transform="translate(0, 255)">
+      <rect width="372" height="240" rx="16" fill="#131D33" stroke="#334155" stroke-width="1.5"/>
+      <rect width="372" height="110" rx="16" fill="#1E293B"/>
+      <text x="186" y="65" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="18" text-anchor="middle">🏢 Shared Apartment</text>
+      <rect x="14" y="14" width="80" height="22" rx="4" fill="#10B981"/>
+      <text x="54" y="29" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">POPULAR</text>
+
+      <text x="18" y="142" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="700">2-Sharing Student Flat</text>
+      <text x="18" y="164" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12">📍 600m to Library · Shegaon</text>
+      <text x="18" y="196" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="700">₹2,800 / person</text>
+      <rect x="240" y="174" width="116" height="36" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+      <text x="298" y="197" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">View Room →</text>
+    </g>
+  </g>
+
+  <!-- Bottom Nav -->
+  <g transform="translate(0, 770)">
+    <rect width="420" height="90" fill="#070A12" stroke="#1E293B" stroke-width="1"/>
+    <text x="70" y="45" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Explore</text>
+    <text x="210" y="45" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" text-anchor="middle">Saved</text>
+    <text x="350" y="45" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" text-anchor="middle">Profile</text>
+  </g>
+</svg>

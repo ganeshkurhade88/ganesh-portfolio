@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="28" fill="url(#roomGrad)"/>
+  <path d="M40 70V54L64 36L88 54V70H40Z" fill="#FFFFFF"/>
+  <rect x="54" y="66" width="20" height="26" rx="4" fill="#0284C7"/>
+  <circle cx="86" cy="40" r="14" fill="#38BDF8"/>
+  <circle cx="86" cy="40" r="6" fill="#0A0F1D"/>
+  <defs>
+    <linearGradient id="roomGrad" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>
